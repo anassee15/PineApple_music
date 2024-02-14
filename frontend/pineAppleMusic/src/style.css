@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@600&display=swap');
+
+/* general */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    color-scheme: dark;
+}
+
+/* index page */
+
+.index-page {
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("assets/background-2.jpg");
+}
+
+.index-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.index-logo-img {
+    background-image: url("assets/logo-color.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 96px;
+    height: 96px;
+}
+
+.login-btn {
+    margin-right: 1.5em;
+}
+
+/* index page animation */
+.index-text h1, .index-logo-img {
+  animation: 4s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+/* signup and login page */
+
+.login-page, .signup-page {
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("assets/purple_gradient.jpg");
+}
+
+.login-content, .signup-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.login-logo, .signup-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.login-logo-img, .signup-logo-img {
+    background-image: url("assets/logo-blanc.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 64px;
+    height: 64px;
+}
+
+.login-form, .signup-form {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.no-account-login, .have-account-signup {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#login-text, #signup-text {
+    margin-top: 1em;
+}
+
+/* home page */
+
+.nav-bar-index-logo-img {
+    background-image: url("assets/logo-color.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
