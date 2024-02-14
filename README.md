@@ -5,7 +5,7 @@
 _El boudiri Anasse - He-Arc - 2022-2023_
 
 ## Context
-This project is part of the course "Web development" during my 3rd yeard of Bachelor at the HE-ARC engineering school. The goal is to develop a web application using the Django and Vue.js frameworks. We will also use Docker to facilitate the deployment of the application.
+This project is part of the course "Web development" during my 3rd yeard of Bachelor at the HE-ARC engineering school. The goal is to develop a web application using the Django and Vue.js (+Vuetify) frameworks. We will also use Docker to facilitate the deployment of the application.
 
 ## Description of the project
 
