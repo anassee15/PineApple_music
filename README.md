@@ -18,7 +18,7 @@ This project aims to set up a platform allowing the sharing of music between use
 - python 3.10
 - pip
 
-## Project setup
+## Get started
 
 This project is divided into two parts, the backend and the frontend. The backend is developed with Django and the frontend with Vue.js.
 
